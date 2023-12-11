@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* github.com/bnewixua & <3*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+}
+
+:root{
+    --color-main: #008000;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff
+}
+
+body{
+    height: 100vh;
+    background-color: #202020;
+}
+
+.nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.nav h2{
+    color: #008000;
+    font-weight: 700;
+    margin-left: 160px;
+    font-size: 30px;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    font-size: 1.25rem;
+}
+
+.nav ul li a span{
+    color: #ffff00;
+    font-size: 1.25rem;
+}
+
+.btn{
+    background-color: #008000;
+    border: none;
+    color: #008000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 190px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 68);
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 10rem 4rem;
+    position: relative;
+    padding-top: 15rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.container .card h1{
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.container .card h1 span{
+    color: #008000
+}
+
+.container .card p{
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.image{
+    max-width: 300px;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 500px;
+    box-shadow: 0px 0px 80px 2px var(--color-main);
+    border-radius: 200px;
+}
+
+.container h2{
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.header h5{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #fff;
+}
+
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 900px;
+}
+
+footer .logo span{
+    color: #008000;
+}
+
+footer .logo{
+    color: #fff;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}   
+
+.about{
+    padding: 110px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-top: 150px;
+}   
+
+.about .left img{ 
+    margin-left: 60px;
+    width: 300px;
+}
+
+.about .right h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.about .right p{
+    align-items: center;
+    margin-top: 20px;
+    color: #999;
+}
+
+.about .right span{
+    color: #008000;
+}
+
+.main{
+    padding: 90px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.main .left h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.main .left p{
+    align-items: center;
+    margin-top: 20px;
+    color: #999;
+}
+
+.main .left span{
+    color: #008000;
+}
+
+.main .left button{
+    margin-top: 40px;
+}
+
